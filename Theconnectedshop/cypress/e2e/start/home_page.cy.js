@@ -10,7 +10,7 @@ describe('the connected shop', () => {
       .should('eq', 'https://theconnectedshop.com/')
 
     
-      // Check the title 
+      // Check the title anna
     cy.title()
       .should('eq', 'The Connected Shop - Smart Locks, Smart Sensors, Smart Home & Office')
     
