@@ -37,7 +37,7 @@ describe('the connected shop', () => {
     cy.get('.Header__LogoLink')
       .should('have.attr', 'href', '/')
 
-      // Check the mennu
+      // Check the menu hire
     cy.get('.Header__MainNav > .HorizontalList')
       .should('exist')
       .and('be.visible');
