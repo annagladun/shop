@@ -76,7 +76,7 @@ describe('Search function works', () => {
         
         cy.get('.Search__Input')
           .click()
-          .type('dfghjkljk,jmhngf')
+          .type('italiano')
          
         cy.get(':nth-child(1) > .Segment > .Segment__Content > p')
           .should('exist')
